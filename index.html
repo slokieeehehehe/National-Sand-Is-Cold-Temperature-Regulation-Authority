@@ -1,0 +1,421 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a2b">
+  <title>NSICTRA — Birthday Records Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="crt-grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="wordmark" href="#" aria-label="NSICTRA home">
+      <span class="seal-mini">N</span>
+      <span>NSICTRA<span class="wordmark-sub"> / BIRTHDAY RECORDS DIVISION</span></span>
+    </a>
+    <div class="top-meta">
+      <span class="live-dot"></span>
+      <span>SYSTEM ONLINE</span>
+      <span class="meta-divider">/</span>
+      <span>DELHI NODE 07</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- LANDING PAGE -->
+    <section class="landing" id="landing">
+      <div class="landing-copy">
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          NATIONAL SAND IS COLD TEMPERATURE REGULATION AUTHORITY
+        </p>
+
+        <h1>ANOTHER YEAR.<br><em>ANOTHER</em> INVESTIGATION.</h1>
+
+        <p class="intro">
+          A birthday is not automatically an achievement. Submit your details
+          for a comprehensive review by the only authority qualified to
+          question your continued usefulness.
+        </p>
+
+        <button class="primary-button" id="beginButton">
+          ENTER THE RECORDS OFFICE <span>↗</span>
+        </button>
+
+        <p class="microcopy">
+          FORM NS-15 · SUBJECT CLEARANCE REQUIRED · NO REFUNDS
+        </p>
+      </div>
+
+      <div class="island-scene">
+        <div class="scene-sky">
+          <span class="sun"></span>
+          <span class="cloud cloud-one"></span>
+          <span class="cloud cloud-two"></span>
+          <span class="star star-one">✦</span>
+          <span class="star star-two">✧</span>
+        </div>
+
+        <div class="scene-water"></div>
+
+        <div class="island-ground">
+          <div class="palm palm-left"><i></i><b></b></div>
+
+          <div class="office">
+            <div class="office-sign">RECORDS<br>OFFICE</div>
+            <div class="office-roof"></div>
+            <div class="office-body">
+              <span class="window"></span>
+              <span class="door"></span>
+            </div>
+          </div>
+
+          <div class="palm palm-right"><i></i><b></b></div>
+          <div class="tiny-person"><span></span><i></i></div>
+
+          <div class="island-label">
+            ISLAND OF QUESTIONABLE ACHIEVEMENTS
+          </div>
+        </div>
+
+        <div class="scene-caption">
+          <span>FIG. 01</span>
+          SUBJECT'S CURRENT LOCATION: SOMEWHERE ON EARTH
+        </div>
+      </div>
+
+      <div class="landing-bottom">
+        <span>SCROLL NOT REQUIRED</span>
+        <span>EST. WHENEVER THIS BECAME NECESSARY</span>
+      </div>
+    </section>
+
+    <!-- INTAKE FORM -->
+    <section class="form-section hidden" id="formSection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / SUBJECT INTAKE</p>
+          <h2>State your business.</h2>
+        </div>
+
+        <div class="file-chip">
+          FILE NO. <strong>NS-15-2011</strong><br>
+          STATUS: AWAITING INPUT
+        </div>
+      </div>
+
+      <div class="form-layout">
+        <aside class="side-note">
+          <div class="side-stamp">CONFIDENTIAL</div>
+          <p class="side-title">A NOTE FROM THE AUTHORITY</p>
+
+          <p>
+            Answer honestly. The Authority will reach its own conclusions
+            regardless of what you write.
+          </p>
+
+          <div class="side-rule"></div>
+
+          <p class="side-small">
+            Your responses may be quoted out of context, archived indefinitely,
+            and used to produce a deeply unnecessary official communication.
+          </p>
+
+          <div class="side-index">NSICTRA<br>FORM 15-B</div>
+        </aside>
+
+        <form id="subjectForm" class="intake-form">
+          <div class="form-progress">
+            <span>PERSONAL RECORD</span>
+            <span id="fieldCount">00 / 13 FIELDS</span>
+          </div>
+
+          <div class="field-grid">
+
+            <label class="field full">
+              <span class="field-number">01</span>
+              <span class="field-label">Full legal name</span>
+              <input
+                id="legalName"
+                value="CHIMPANZEE NALAYAK FUN SIZED FOSSIL APPLE KEYCHAIN ATTACHABLE TWINEMY RAJVIRUS CHIMPANZIUS"
+                required
+              >
+              <span class="live-response" data-response="legalName">
+                Awaiting identification. The Authority is already concerned.
+              </span>
+            </label>
+
+            <label class="field">
+              <span class="field-number">02</span>
+              <span class="field-label">Date of birth</span>
+              <input id="dob" value="20 11 2011" required>
+              <span class="live-response" data-response="dob">
+                Date verification pending.
+              </span>
+            </label>
+
+            <label class="field">
+              <span class="field-number">03</span>
+              <span class="field-label">Favourite colour</span>
+              <input id="colour" placeholder="A colour. Allegedly." required>
+              <span class="live-response" data-response="colour">
+                Colour-related investigation not yet initiated.
+              </span>
+            </label>
+
+            <label class="field">
+              <span class="field-number">04</span>
+              <span class="field-label">Favourite subject</span>
+              <select id="subject">
+                <option value="">Select a subject</option>
+                <option>English</option>
+                <option>Maths</option>
+                <option>Biology</option>
+                <option>Chemistry</option>
+                <option>Physics</option>
+                <option>Spanish</option>
+                <option>Other</option>
+              </select>
+              <span class="live-response" data-response="subject">
+                Academic judgement pending.
+              </span>
+            </label>
+
+            <label class="field">
+              <span class="field-number">05</span>
+              <span class="field-label">Favourite food</span>
+              <input id="food" placeholder="This will be judged." required>
+              <span class="live-response" data-response="food">
+                The Authority has already approved Prolyte ORS.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">06</span>
+              <span class="field-label">Hobbies</span>
+              <input id="hobbies" placeholder="List your alleged interests" required>
+              <span class="live-response" data-response="hobbies">
+                The Authority is preparing to question your personality.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">07</span>
+              <span class="field-label">Greatest achievement</span>
+              <textarea id="achievement" placeholder="Please do not exaggerate." required></textarea>
+              <span class="live-response" data-response="achievement">
+                Historical records are being consulted.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">08</span>
+              <span class="field-label">Biggest fear</span>
+              <input id="fear" placeholder="The Authority has its suspicions." required>
+              <span class="live-response" data-response="fear">
+                Fear assessment awaiting evidence.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">09</span>
+              <span class="field-label">Greatest regret</span>
+              <input id="regret" placeholder="Take your time." required>
+              <span class="live-response" data-response="regret">
+                The Authority suspects this list may be extensive.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">10</span>
+              <span class="field-label">Most-used phrase</span>
+              <input id="phrase" placeholder="Something you probably say too often" required>
+              <span class="live-response" data-response="phrase">
+                Linguistic analysis awaiting input.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">11</span>
+              <span class="field-label">Most significant contribution to society</span>
+              <textarea id="contribution" placeholder="Evidence is encouraged." required></textarea>
+              <span class="live-response" data-response="contribution">
+                Society has been contacted. It has not responded.
+              </span>
+            </label>
+
+            <label class="field full">
+              <span class="field-number">12</span>
+              <span class="field-label">Your message to the Authority</span>
+              <textarea id="message" placeholder="The Authority may or may not read this." required></textarea>
+              <span class="live-response" data-response="message">
+                Your attempt to communicate with the Authority is noted.
+              </span>
+            </label>
+
+            <label class="field full optional-field">
+              <span class="field-number">13</span>
+              <span class="field-label">Anything specific you would like to mention?</span>
+
+              <span class="field-explanation">
+                Not that the Authority particularly cares, nor is anyone
+                suggesting that your opinion is of any measurable importance.
+                However, we recognise that allowing you a designated space to
+                express yourself may temporarily improve your perception of
+                your own significance. Please use it wisely. Or don't. It
+                genuinely makes very little difference.
+              </span>
+
+              <textarea
+                id="personalStatement"
+                placeholder="Go on. Get it out of your system."
+              ></textarea>
+
+              <span class="live-response" data-response="personalStatement">
+                This section is optional. Your dignity is not.
+              </span>
+            </label>
+
+          </div>
+
+          <div class="form-bottom">
+            <p>
+              <span class="warning-mark">!</span>
+              By submitting, you acknowledge that this is a fictional birthday
+              assessment and not an actual government service.
+            </p>
+
+            <button class="primary-button" type="submit">
+              SUBMIT FOR REVIEW <span>↗</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- AUDIT TERMINAL -->
+    <section class="terminal-section hidden" id="terminalSection">
+      <div class="terminal-top">
+        <span><i></i><i></i><i></i> NSICTRA_SECURE_SHELL</span>
+        <span>ENCRYPTION: POINTLESS</span>
+      </div>
+
+      <div class="terminal-content">
+        <p class="terminal-kicker">INTERNAL SYSTEM / LIVE AUDIT</p>
+        <h2>Running the numbers.</h2>
+
+        <div id="terminalLog" class="terminal-log" aria-live="polite"></div>
+
+        <div class="terminal-progress">
+          <span id="progressBar"></span>
+        </div>
+
+        <p class="terminal-foot">
+          DO NOT CLOSE THIS WINDOW. THE AUTHORITY HAS ALREADY COME THIS FAR.
+        </p>
+      </div>
+    </section>
+
+    <!-- FINAL REPORT -->
+    <section class="result-section hidden" id="resultSection">
+      <div class="result-heading">
+        <p class="eyebrow">02 / FINDINGS RELEASED</p>
+        <h2>The Authority has reached a decision.</h2>
+        <p>
+          Following an unnecessarily extensive investigation, the following
+          communication has been approved for release.
+        </p>
+      </div>
+
+      <div class="report-toolbar">
+        <div>
+          <span class="report-status-dot"></span>
+          OFFICIAL COMMUNICATION / FINAL VERSION
+        </div>
+        <span>FILE: NS-RAJ-2011-15</span>
+      </div>
+
+      <article class="official-report" id="officialReport">
+        <div class="report-topline">
+          <span>NSICTRA / CENTRAL RECORDS</span>
+          <span>FORM 15-C</span>
+        </div>
+
+        <div class="report-heading">
+          <div class="report-emblem">N<span>★</span></div>
+          <p class="report-authority">
+            NATIONAL SAND IS COLD TEMPERATURE REGULATION AUTHORITY
+          </p>
+          <p class="report-department">
+            DEPARTMENT OF UNNECESSARY RECOGNITION & HUMAN SURVIVAL
+          </p>
+
+          <div class="report-divider"></div>
+
+          <p class="report-type">OFFICIAL COMMUNICATION</p>
+          <h2>NOTICE OF EXTENSIVE<br>PERSONAL DEFICIENCIES</h2>
+          <p class="report-subtitle">
+            A COMPREHENSIVE AND ENTIRELY UNREQUESTED ASSESSMENT
+          </p>
+        </div>
+
+        <div class="report-meta">
+          <span>SUBJECT: RAJVIRUS CHIMPANZIUS</span>
+          <span>CLASSIFICATION: NALAYAK LEVEL 15</span>
+          <span>STATUS: STILL OPERATIONAL</span>
+        </div>
+
+        <div id="reportBody" class="report-body"></div>
+
+        <div class="report-designation">
+          <span>FINAL OFFICIAL DESIGNATION</span>
+          <strong>CERTIFIED NALAYAK — LEVEL 15</strong>
+          <em>STILL OPERATIONAL. UNFORTUNATELY.</em>
+        </div>
+
+        <div class="report-signoff">
+          <div>
+            <span class="signature">The Authority</span>
+            <small>UNIDENTIFIED SIGNING OFFICER</small>
+          </div>
+
+          <div class="report-seal">
+            NSI<br>CTRA<br>15
+          </div>
+
+          <div>
+            <span class="signature">Records Dept.</span>
+            <small>DEPARTMENT OF RECORDS</small>
+          </div>
+        </div>
+
+        <div class="report-footer">
+          <span>FILE: NS-RAJ-2011-15</span>
+          <span>VALID: ONE (1) YEAR, SUBJECT TO REVIEW</span>
+        </div>
+      </article>
+
+      <div class="report-actions">
+        <button class="outline-button" id="printButton">
+          PRINT / SAVE AS PDF
+        </button>
+
+        <button class="outline-button" id="restartButton">
+          REOPEN CASE FILE
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>NSICTRA CENTRAL RECORDS</span>
+    <span>THIS WEBSITE IS NOT AFFILIATED WITH ANY GOVERNMENT BODY. OBVIOUSLY.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
